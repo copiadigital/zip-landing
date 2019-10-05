@@ -12,7 +12,7 @@ module.exports = {
     colors: {
       transparent: "transparent",
 
-      black: "#000",
+      black: "#3f3f47",
       white: "#fff",
       "zip-orange": {
         100: "#f8991c",
