@@ -1,0 +1,11 @@
+//==========  Benefits ==========//
+.benefits {
+  &-content {
+    box-shadow: 0 7px 75px 15px rgba(68, 69, 98, 0.29);
+    margin-bottom: -4rem;
+
+    &-block {
+      max-width: 384px;
+    }
+  }
+}

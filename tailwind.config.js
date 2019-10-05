@@ -14,6 +14,12 @@ module.exports = {
 
       black: "#000",
       white: "#fff",
+      "zip-orange": {
+        100: "#f8991c",
+        300: "#fa9800",
+        500: "#fd7055"
+      },
+      "zip-blue": "#21285e",
 
       gray: {
         100: "#f7fafc",
