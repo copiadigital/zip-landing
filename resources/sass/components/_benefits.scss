@@ -5,7 +5,9 @@
     margin-bottom: -4rem;
 
     &-block {
-      max-width: 384px;
+      @media (min-width: 768px) {
+        max-width: 384px;
+      }
     }
   }
 }
