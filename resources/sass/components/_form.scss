@@ -11,7 +11,12 @@
   &-submit:hover {
     cursor: pointer;
   }
+  &-check input:hover + svg {
+    opacity: 0.3;
+    display: block !important;
+  }
   &-check input:checked + svg {
+    opacity: 1;
     display: block !important;
   }
 }
