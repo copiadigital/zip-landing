@@ -695,6 +695,10 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(90deg, #3f48a6 0%, #222966 100%);
 }
 
+.form-check:hover, .form-submit:hover {
+  cursor: pointer;
+}
+
 .form-check input:checked + svg {
   display: block !important;
 }
