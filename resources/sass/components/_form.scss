@@ -1,0 +1,13 @@
+//==========  Form ==========//
+.form {
+  background: rgb(63, 72, 166);
+  background: linear-gradient(
+    90deg,
+    rgba(63, 72, 166, 1) 0%,
+    rgba(34, 41, 102, 1) 100%
+  );
+
+  &-check input:checked + svg {
+    display: block !important;
+  }
+}
