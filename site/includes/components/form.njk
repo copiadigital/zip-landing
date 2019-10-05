@@ -18,18 +18,34 @@
 			<div class="mb-4">
 				<input name="number" class="appearance-none border rounded w-full py-4 px-6 text-gray-800 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Phone number">
 			</div>
-			<div class="mb-4">
+			<div class="mb-8">
 				<input name="website" class="appearance-none border rounded w-full py-4 px-6 text-gray-800 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Website URL">
 			</div>
-			<label class="form-check flex">
-				<div class="bg-white shadow w-6 h-6 p-1 flex justify-center items-center mr-2">
-					<input type="checkbox" class="hidden" checked>
-					<svg class="hidden w-4 h-4 text-green-600 pointer-events-none" viewBox="0 0 172 172">
+			<label class="form-check flex mb-4">
+				<div class="border-2 rounded-sm shadow w-6 h-6 p-1 flex justify-center items-center mr-2">
+					<input name="contactMe" type="checkbox" class="hidden">
+					<svg class="hidden w-4 h-4 text-white pointer-events-none" viewBox="0 0 172 172">
 						<g fill="none" stroke-width="none" stroke-miterlimit="10" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode:normal"><path d="M0 172V0h172v172z"/><path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"/></g>
 					</svg>
 				</div>
-				<span class="select-none"> This is a sample checkbox. All the text will toggle the state</span>
+				<span class="select-none text-white">I agree that Zip can contact me in regards to my interest in Zip products.</span>
 			</label>
-			<input type="hidden" name="_gotcha"><!-- use this to prevent spam --></form>
+			<label class="form-check flex mb-4">
+				<div class="border-2 rounded-sm shadow w-6 h-6 p-1 flex justify-center items-center mr-2">
+					<input name="promotionalMaterial" type="checkbox" class="hidden">
+					<svg class="hidden w-4 h-4 text-white pointer-events-none" viewBox="0 0 172 172">
+						<g fill="none" stroke-width="none" stroke-miterlimit="10" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode:normal"><path d="M0 172V0h172v172z"/><path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1"/></g>
+					</svg>
+				</div>
+				<span class="select-none text-white">I agree that Zip can send me news, offers, tips and other promotional material</span>
+			</label>
+			<p class="text-white text-left margin-0">For more information pleae see our <a href="https://zip.co/terms-and-conditions" target="_blank" class="text-white hover:text-zip-orange-100 underline">Terms &amp; Conditions</a> and our <a href="https://zip.co/privacy" target="_blank" class="text-white hover:text-zip-orange-100 underline">Privacy Policy</a>
+			</p>
+			<!-- use this to prevent spam -->
+			<input type="hidden" name="_gotcha">
+			<div class="mt-12 mb-12">
+				<input type="submit" class="bg-zip-orange-100 hover:bg-zip-orange-500 text-white font-bold text-xl py-4 px-10 rounded-full" value="Submit">
+			</div>
+		</form>
 	</div>
 </section>
