@@ -31,4 +31,12 @@ window.onload = function() {
     // check if the form is valid
     var valid = pristine.validate(); // returns true or false
   });
+
+  telConfig = {
+    onlyCountries: ["au", "nz"],
+    separateDialCode: true
+  };
+
+  var input = document.querySelector("#phone");
+  window.intlTelInput(input, telConfig);
 };
