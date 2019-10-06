@@ -674,6 +674,10 @@ h1, h2, h3, h4, h5, h6 {
   background-position: top center;
 }
 
+.hero-subheading {
+  max-width: 28.2rem;
+}
+
 .benefits {
   position: relative;
   z-index: 1;
@@ -686,7 +690,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 768px) {
   .benefits-content-block {
-    max-width: 384px;
+    max-width: 287px;
   }
 }
 
