@@ -699,6 +699,18 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(90deg, #3f48a6 0%, #222966 100%);
 }
 
+.form-group {
+  text-align: left;
+  position: relative;
+}
+
+.form-group .pristine-error {
+  position: absolute;
+  top: 1.2rem;
+  right: 1rem;
+  font-size: 0.8rem;
+}
+
 .form-check:hover, .form-submit:hover {
   cursor: pointer;
 }

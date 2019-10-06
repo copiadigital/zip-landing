@@ -7,6 +7,17 @@
     rgba(34, 41, 102, 1) 100%
   );
 
+  &-group {
+    text-align: left;
+    position: relative;
+    .pristine-error {
+      position: absolute;
+      top: 1.2rem;
+      right: 1rem;
+      font-size: 0.8rem;
+    }
+  }
+
   &-check:hover,
   &-submit:hover {
     cursor: pointer;
