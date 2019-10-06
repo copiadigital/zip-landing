@@ -704,11 +704,13 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-.form-group .pristine-error {
-  position: absolute;
-  top: 1.2rem;
-  right: 1rem;
-  font-size: 0.8rem;
+@media (min-width: 560px) {
+  .form-group .pristine-error {
+    position: absolute;
+    top: 1.2rem;
+    right: 1rem;
+    font-size: 0.8rem;
+  }
 }
 
 .form-check:hover, .form-submit:hover {
