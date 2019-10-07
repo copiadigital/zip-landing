@@ -18,6 +18,17 @@
         font-size: 0.8rem;
       }
     }
+
+    &.form-check {
+      .pristine-error {
+        @media (min-width: 560px) {
+          position: relative;
+          top: 0;
+          right: 0;
+          padding-left: 1rem;
+        }
+      }
+    }
   }
 
   &-check:hover,

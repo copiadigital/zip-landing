@@ -719,6 +719,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (min-width: 560px) {
+  .form-group.form-check .pristine-error {
+    position: relative;
+    top: 0;
+    right: 0;
+    padding-left: 1rem;
+  }
+}
+
 .form-check:hover, .form-submit:hover {
   cursor: pointer;
 }
