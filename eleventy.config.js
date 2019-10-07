@@ -46,7 +46,8 @@ module.exports = eleventyConfig => {
             output: 'dist',
             includes: 'includes',
             data: 'globals'
-        }
-    }
+        },
 
+        pathPrefix: '/uk/'
+    }
 }
