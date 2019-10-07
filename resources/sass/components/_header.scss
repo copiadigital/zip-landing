@@ -1,5 +1,8 @@
 //==========  Header ==========//
 .header {
+  &-link {
+    max-width: 134px;
+  }
   &-logo {
     max-height: 32px;
     margin-left: -22px;

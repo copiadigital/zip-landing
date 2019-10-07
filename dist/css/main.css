@@ -665,6 +665,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* purgecss start ignore */
 
+.header-link {
+  max-width: 134px;
+}
+
 .header-logo {
   max-height: 32px;
   margin-left: -22px;
