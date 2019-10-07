@@ -935,6 +935,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 20px;
 }
 
+.iti__flag.iti__gb {
+  width: 20px;
+}
+
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .iti__flag {
     background-size: 5652px 15px;
@@ -949,6 +953,11 @@ h1, h2, h3, h4, h5, h6 {
 .iti__flag.iti__nz {
   height: 10px;
   background-position: -3855px 0px;
+}
+
+.iti__flag.iti__gb {
+  height: 10px;
+  background-position: -1775px 0px;
 }
 
 .iti__flag {

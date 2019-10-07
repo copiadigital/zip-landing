@@ -37,8 +37,9 @@ window.onload = function() {
   });
 
   telConfig = {
-    onlyCountries: ["au", "nz"],
-    separateDialCode: true
+    onlyCountries: ["gb"],
+    separateDialCode: true,
+    allowDropdown: false
   };
 
   var input = document.querySelector("#phone");

@@ -9,7 +9,8 @@
 .iti__flag {
   $item-width-maps: (
     au: 20px,
-    nz: 20px
+    nz: 20px,
+    gb: 20px
   );
   $standard-country: "ac";
   width: map-get($item-width-maps, $standard-country);
@@ -32,5 +33,9 @@
   &.iti__nz {
     height: 10px;
     background-position: -3855px 0px;
+  }
+  &.iti__gb {
+    height: 10px;
+    background-position: -1775px 0px;
   }
 }
