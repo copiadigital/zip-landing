@@ -48,6 +48,6 @@ module.exports = eleventyConfig => {
             data: 'globals'
         },
 
-        pathPrefix: '/uk/'
+        pathPrefix: '/'
     }
 }
