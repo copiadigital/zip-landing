@@ -17,10 +17,10 @@
     {# for performance gains over the network, if your site's entire CSS comes in under 16kb, you may want to consider just having it inlined in the head #}
     {# include main.css if in development mode #}
     {% if helpers.environment == "development" %}
-      <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+      <link rel="stylesheet" href="/uk/css/main.css">
     {% else %}
       {# else, use the minified css file for production #}
-      <link rel="stylesheet" href="{{ site.url }}/css/main.min.css">
+      <link rel="stylesheet" href="/uk/css/main.min.css">
     {% endif %}
 
     {# social meta tags and assets like fonts, favicons etc, should be last #}
@@ -53,9 +53,9 @@
 
     {# include scripts #}
     {% if helpers.environment == "development" %}
-      <script src="{{ site.url }}/javascript/main.js"></script>
+      <script src="/uk/javascript/main.js"></script>
     {% else %}
-      <script src="{{ site.url }}/javascript/main.min.js"></script>
+      <script src="/uk/javascript/main.min.js"></script>
     {% endif %}
 
   </body>
